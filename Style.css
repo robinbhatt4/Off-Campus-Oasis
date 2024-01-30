@@ -1,0 +1,41 @@
+body {
+    background: linear-gradient(to bottom, #000044, #222222);
+    color: white;
+    font-family: Futura, Impact, sans-serif;
+    text-align: center;
+}
+
+.container {
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+img {
+    width: 300px;
+    filter: brightness(0.6); /* Darken the image */
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+button {
+    background-color: green; /* Replace with desired colors */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.disabled {
+    background-color: #555;
+    cursor: not-allowed;
+}
